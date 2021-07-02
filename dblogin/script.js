@@ -26,23 +26,29 @@ function login(){
            
          window.location = "home.php"; 
          
-        //  $.ajax({
-        //     type: "POST",
-        //     url: 'home.html',
-        //     data: {
-        //          email: document.getElementById("email").value,
-        //          pwd: document.getElementById("pass").value
-        //     },
-        //     success: function(data)
-        //     {
-        //         if (data === 'Correct') {
-        //             window.location.replace('home.html');
-        //         }
-        //         else {
-        //             alert(data);
-        //         }
-        //     }
-        // });
+//             $(document).ready(function(){
+//             $("#my-form").click(function(){
+//                 var useremail = $("#email").val().trim();
+//                 var password = $("#pass").val().trim();
+        
+//                 if( useremail != "" && password != "" ){
+//                     $.ajax({
+//                         url:'Sign-Up.php',
+//                         type:'post',
+//                         data:{useremail:username,password:password},
+//                         success:function(response){
+//                             if(response == 1){
+//                                 window.location = "home.php";
+//                             }else{
+//                                 alert("Invalid username and password!");
+//                             }
+//                         }
+//                     });
+//                 }
+//             });
+//         });
+        
+        
     }
 
 
