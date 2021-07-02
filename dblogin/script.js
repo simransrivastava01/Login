@@ -30,8 +30,6 @@ function login(){
         //     type: "POST",
         //     url: 'home.html',
         //     data: {
-        //         // username: $("#username").val(),
-        //         // password: $("#password").val(),
         //          email: document.getElementById("email").value,
         //          pwd: document.getElementById("pass").value
         //     },
